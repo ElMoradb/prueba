@@ -1,0 +1,403 @@
+CRITICAL - 2024-10-25 02:09:03 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/14]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 02:09:14 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/13]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 02:09:28 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/1]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 03:49:31 --> ErrorException: Undefined property: stdClass::$equipo
+[Method: GET, Route: equipo/edit/1]
+in APPPATH\Views\equipos\edit.php on line 9.
+ 1 APPPATH\Views\equipos\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$equipo', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('equipos/edit', [], true)
+ 5 APPPATH\Controllers\Equipo.php(32): view('equipos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 03:49:35 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/1]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 03:50:01 --> ErrorException: Undefined property: stdClass::$jugador
+[Method: GET, Route: jugador/edit/1]
+in APPPATH\Views\jugadores\edit.php on line 9.
+ 1 APPPATH\Views\jugadores\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jugador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\jugadores\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\jugadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jugadores/edit', [], true)
+ 5 APPPATH\Controllers\Jugador.php(32): view('jugadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 03:52:47 --> ErrorException: Undefined property: stdClass::$jugador
+[Method: GET, Route: jugador/edit/1]
+in APPPATH\Views\jugadores\edit.php on line 9.
+ 1 APPPATH\Views\jugadores\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jugador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\jugadores\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\jugadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jugadores/edit', [], true)
+ 5 APPPATH\Controllers\Jugador.php(32): view('jugadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 03:54:03 --> ErrorException: Undefined array key "aPaterno"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 44.
+ 1 APPPATH\Controllers\Jugador.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aPaterno"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 03:54:07 --> ErrorException: Undefined array key "aPaterno"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 44.
+ 1 APPPATH\Controllers\Jugador.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aPaterno"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 03:54:26 --> ErrorException: Undefined array key "aPaterno"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 44.
+ 1 APPPATH\Controllers\Jugador.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aPaterno"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 04:10:48 --> ErrorException: Undefined array key "fechaNacimiento"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 46.
+ 1 APPPATH\Controllers\Jugador.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechaNacimiento"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 05:24:12 --> ErrorException: Undefined array key "fechaNacimiento"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 46.
+ 1 APPPATH\Controllers\Jugador.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechaNacimiento"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 05:25:05 --> ErrorException: Undefined array key "fechaNacimiento"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 46.
+ 1 APPPATH\Controllers\Jugador.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechaNacimiento"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 05:35:40 --> ErrorException: Undefined array key "fechaNacimiento"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 46.
+ 1 APPPATH\Controllers\Jugador.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechaNacimiento"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 05:38:25 --> ErrorException: Undefined array key "fechaNacimiento"
+[Method: POST, Route: jugadores/update/]
+in APPPATH\Controllers\Jugador.php on line 46.
+ 1 APPPATH\Controllers\Jugador.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechaNacimiento"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 05:46:13 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/1]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 05:49:27 --> ErrorException: Undefined variable $jugador
+[Method: GET, Route: jugador/edit/2]
+in APPPATH\Views\jugadores\edit.php on line 4.
+ 1 APPPATH\Views\jugadores\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jugador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\jugadores\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\jugadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jugadores/edit', [], true)
+ 5 APPPATH\Controllers\Jugador.php(32): view('jugadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:02:27 --> ErrorException: Undefined property: stdClass::$equipo
+[Method: GET, Route: equipo/edit/1]
+in APPPATH\Views\equipos\edit.php on line 9.
+ 1 APPPATH\Views\equipos\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$equipo', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('equipos/edit', [], true)
+ 5 APPPATH\Controllers\Equipo.php(32): view('equipos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:07:07 --> ErrorException: Undefined property: stdClass::$entrenador
+[Method: GET, Route: equipo/edit/1]
+in APPPATH\Views\equipos\edit.php on line 13.
+ 1 APPPATH\Views\equipos\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$entrenador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('equipos/edit', [], true)
+ 5 APPPATH\Controllers\Equipo.php(32): view('equipos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:07:15 --> ErrorException: Undefined property: stdClass::$entrenador
+[Method: GET, Route: equipo/edit/1]
+in APPPATH\Views\equipos\edit.php on line 13.
+ 1 APPPATH\Views\equipos\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$entrenador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('equipos/edit', [], true)
+ 5 APPPATH\Controllers\Equipo.php(32): view('equipos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:07:58 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/1]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:12:03 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/1]
+in APPPATH\Views\arbitros\edit.php on line 13.
+ 1 APPPATH\Views\arbitros\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:12:18 --> ErrorException: Undefined property: stdClass::$apellidoMaterno
+[Method: GET, Route: arbitros/edit/1]
+in APPPATH\Views\arbitros\edit.php on line 13.
+ 1 APPPATH\Views\arbitros\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$apellidoMaterno', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:13:26 --> ErrorException: Undefined property: stdClass::$apellidoPaterno
+[Method: GET, Route: arbitros/edit/1]
+in APPPATH\Views\arbitros\edit.php on line 13.
+ 1 APPPATH\Views\arbitros\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$apellidoPaterno', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:18:24 --> ErrorException: Undefined variable $jugador
+[Method: GET, Route: entrenador/edit/1]
+in APPPATH\Views\entrenadores\edit.php on line 9.
+ 1 APPPATH\Views\entrenadores\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jugador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('entrenadores/edit', [], true)
+ 5 APPPATH\Controllers\Entrenador.php(32): view('entrenadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Entrenador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrenador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:18:51 --> ErrorException: Undefined variable $jugador
+[Method: GET, Route: entrenador/edit/1]
+in APPPATH\Views\entrenadores\edit.php on line 9.
+ 1 APPPATH\Views\entrenadores\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jugador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('entrenadores/edit', [], true)
+ 5 APPPATH\Controllers\Entrenador.php(32): view('entrenadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Entrenador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrenador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:19:51 --> ErrorException: Undefined variable $arbitro
+[Method: GET, Route: entrenador/edit/1]
+in APPPATH\Views\entrenadores\edit.php on line 33.
+ 1 APPPATH\Views\entrenadores\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('entrenadores/edit', [], true)
+ 5 APPPATH\Controllers\Entrenador.php(32): view('entrenadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Entrenador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrenador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:20:10 --> ErrorException: Undefined property: stdClass::$telefono
+[Method: GET, Route: entrenador/edit/1]
+in APPPATH\Views\entrenadores\edit.php on line 33.
+ 1 APPPATH\Views\entrenadores\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telefono', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('entrenadores/edit', [], true)
+ 5 APPPATH\Controllers\Entrenador.php(32): view('entrenadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Entrenador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrenador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-25 06:20:59 --> ErrorException: Undefined property: stdClass::$numtelefono
+[Method: GET, Route: entrenador/edit/1]
+in APPPATH\Views\entrenadores\edit.php on line 33.
+ 1 APPPATH\Views\entrenadores\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$numtelefono', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\entrenadores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('entrenadores/edit', [], true)
+ 5 APPPATH\Controllers\Entrenador.php(32): view('entrenadores/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Entrenador->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrenador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')

@@ -1,0 +1,1024 @@
+CRITICAL - 2024-09-26 06:26:22 --> ErrorException: Undefined variable $Jugador
+[Method: GET, Route: jugador]
+in APPPATH\Views\JugadorView.php on line 6.
+ 1 APPPATH\Views\JugadorView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jugador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\JugadorView.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\JugadorView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('JugadorView', [], true)
+ 5 APPPATH\Controllers\JugadorController.php(11): view('JugadorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JugadorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JugadorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 06:26:23 --> ErrorException: Undefined variable $Jugador
+[Method: GET, Route: jugador]
+in APPPATH\Views\JugadorView.php on line 6.
+ 1 APPPATH\Views\JugadorView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jugador', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\JugadorView.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\JugadorView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('JugadorView', [], true)
+ 5 APPPATH\Controllers\JugadorController.php(11): view('JugadorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JugadorController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JugadorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:05:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(11): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:06:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(11): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:06:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(11): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:06:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(11): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:07:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(9): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:07:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(9): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:07:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(9): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 07:07:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "canchas.php"
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canchas.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas', [], true)
+ 3 APPPATH\Controllers\CanchaController.php(9): view('canchas')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CanchaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CanchaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:45:22 --> ErrorException: Undefined variable $Canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 19.
+ 1 APPPATH\Views\canchas\show.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:46:47 --> ErrorException: Undefined property: stdClass::$Canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:14 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:15 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:15 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:15 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:16 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:16 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:16 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:16 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:17 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:47:17 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:12 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:12 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:13 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:14 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:15 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:15 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:15 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:15 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:49:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:01 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:02 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:02 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:02 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:02 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:02 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:03 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:52:03 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:12 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:12 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:13 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:13 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:13 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:13 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:13 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:54:14 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 20:58:50 --> ErrorException: Undefined property: stdClass::$canchas
+[Method: GET, Route: canchas]
+in APPPATH\Views\canchas\show.php on line 22.
+ 1 APPPATH\Views\canchas\show.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$canchas', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\canchas\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('canchas/show', [], true)
+ 5 APPPATH\Controllers\Canchas.php(15): view('canchas/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 21:02:36 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: menusito]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 21:03:46 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: menusito]
+in APPPATH\Config\Routes.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 21:03:46 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: menusito]
+in APPPATH\Config\Routes.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 21:03:46 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: menusito]
+in APPPATH\Config\Routes.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-09-26 21:03:47 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: menusito]
+in APPPATH\Config\Routes.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')

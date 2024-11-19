@@ -1,0 +1,70 @@
+CRITICAL - 2024-11-06 19:46:09 --> ErrorException: Undefined array key "idEntrenador"
+[Method: POST, Route: equipos/update/]
+in APPPATH\Controllers\Equipo.php on line 44.
+ 1 APPPATH\Controllers\Equipo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEntrenador"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Equipo.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-06 19:48:34 --> ErrorException: Undefined array key "idEntrenador"
+[Method: POST, Route: equipos/update/]
+in APPPATH\Controllers\Equipo.php on line 44.
+ 1 APPPATH\Controllers\Equipo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEntrenador"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Equipo.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-06 19:48:39 --> ErrorException: Undefined array key "idEntrenador"
+[Method: POST, Route: equipos/update/]
+in APPPATH\Controllers\Equipo.php on line 44.
+ 1 APPPATH\Controllers\Equipo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEntrenador"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Equipo.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-06 19:49:02 --> ErrorException: Undefined array key "uniforme"
+[Method: POST, Route: equipos/update/]
+in APPPATH\Controllers\Equipo.php on line 45.
+ 1 APPPATH\Controllers\Equipo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uniforme"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Equipo.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-06 19:49:26 --> ErrorException: Undefined array key "uniforme"
+[Method: POST, Route: equipos/update/]
+in APPPATH\Controllers\Equipo.php on line 45.
+ 1 APPPATH\Controllers\Equipo.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "uniforme"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Equipo.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-06 19:51:01 --> ErrorException: Undefined property: stdClass::$Nombre
+[Method: GET, Route: equipos]
+in APPPATH\Views\equipos\show.php on line 26.
+ 1 APPPATH\Views\equipos\show.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Nombre', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\show.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\equipos\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('equipos/show', [], true)
+ 5 APPPATH\Controllers\Equipo.php(15): view('equipos/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')

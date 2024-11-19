@@ -1,0 +1,33 @@
+CRITICAL - 2024-11-11 19:52:57 --> ErrorException: Undefined array key "idCancha"
+[Method: POST, Route: partidos/insert]
+in APPPATH\Controllers\Partido.php on line 61.
+ 1 APPPATH\Controllers\Partido.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idCancha"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-11 19:53:48 --> ErrorException: Undefined array key "idCancha"
+[Method: POST, Route: partidos/insert]
+in APPPATH\Controllers\Partido.php on line 61.
+ 1 APPPATH\Controllers\Partido.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idCancha"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-11 19:53:52 --> ErrorException: Undefined array key "idArbitro"
+[Method: POST, Route: partidos/insert]
+in APPPATH\Controllers\Partido.php on line 62.
+ 1 APPPATH\Controllers\Partido.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idArbitro"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')

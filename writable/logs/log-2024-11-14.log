@@ -1,0 +1,299 @@
+ERROR - 2024-11-14 20:06:05 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idCancha...', 0)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idCancha...')
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idCancha...')
+#3 D:\xampp\htdocs\ligapremier\app\Models\PartidoM.php(46): CodeIgniter\Database\BaseConnection->query('SELECT idCancha...')
+#4 D:\xampp\htdocs\ligapremier\app\Controllers\Partido.php(22): App\Models\PartidoM->getCancha()
+#5 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Partido->add()
+#6 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-14 20:06:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+[Method: GET, Route: partidos/add/]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\PartidoM.php(46): CodeIgniter\Database\BaseConnection->query('SELECT idCancha, nombre FROM cancha')
+ 2 APPPATH\Controllers\Partido.php(22): App\Models\PartidoM->getCancha()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:06:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idCancha, nombre FROM cancha')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idCancha, nombre FROM cancha')
+ 3 APPPATH\Models\PartidoM.php(46): CodeIgniter\Database\BaseConnection->query('SELECT idCancha, nombre FROM cancha')
+ 4 APPPATH\Controllers\Partido.php(22): App\Models\PartidoM->getCancha()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:06:05 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT idCancha, nombre FROM cancha', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idCancha, nombre FROM cancha')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idCancha, nombre FROM cancha')
+ 4 APPPATH\Models\PartidoM.php(46): CodeIgniter\Database\BaseConnection->query('SELECT idCancha, nombre FROM cancha')
+ 5 APPPATH\Controllers\Partido.php(22): App\Models\PartidoM->getCancha()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:07:03 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: partidos/add/]
+in APPPATH\Views\partidos\add.php on line 15.
+ 1 APPPATH\Views\partidos\add.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/add', [], true)
+ 5 APPPATH\Controllers\Partido.php(25): view('partidos/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:07:20 --> ErrorException: Undefined variable $arbitro
+[Method: GET, Route: partidos/add/]
+in APPPATH\Views\partidos\add.php on line 21.
+ 1 APPPATH\Views\partidos\add.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/add', [], true)
+ 5 APPPATH\Controllers\Partido.php(25): view('partidos/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:11:22 --> ErrorException: Undefined variable $local
+[Method: GET, Route: partidos/add/]
+in APPPATH\Views\partidos\add.php on line 29.
+ 1 APPPATH\Views\partidos\add.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/add', [], true)
+ 5 APPPATH\Controllers\Partido.php(26): view('partidos/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:23:50 --> ErrorException: Undefined variable $EquipoM
+[Method: GET, Route: partidos/add/]
+in APPPATH\Controllers\Partido.php on line 24.
+ 1 APPPATH\Controllers\Partido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $EquipoM', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:24:57 --> ErrorException: Undefined variable $equipoM
+[Method: GET, Route: partidos/add/]
+in APPPATH\Controllers\Partido.php on line 24.
+ 1 APPPATH\Controllers\Partido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $equipoM', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:25:15 --> ErrorException: Undefined property: stdClass::$idLocal
+[Method: GET, Route: partidos/add/]
+in APPPATH\Views\partidos\add.php on line 30.
+ 1 APPPATH\Views\partidos\add.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idLocal', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/add', [], true)
+ 5 APPPATH\Controllers\Partido.php(27): view('partidos/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:30:27 --> ErrorException: Undefined variable $cancha
+[Method: GET, Route: partidos/edit/1]
+in APPPATH\Views\partidos\edit.php on line 11.
+ 1 APPPATH\Views\partidos\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cancha', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/edit', [], true)
+ 5 APPPATH\Controllers\Partido.php(37): view('partidos/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:33:28 --> BadMethodCallException: Call to undefined method App\Models\PartidoM::getEntrenador
+[Method: GET, Route: partidos/edit/1]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Partido.php(35): CodeIgniter\Model->__call('getEntrenador', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:34:05 --> ErrorException: Undefined array key "idLocal"
+[Method: POST, Route: partidos/update/]
+in APPPATH\Controllers\Partido.php on line 56.
+ 1 APPPATH\Controllers\Partido.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLocal"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:35:16 --> ErrorException: Undefined array key "idLocal"
+[Method: POST, Route: partidos/update/]
+in APPPATH\Controllers\Partido.php on line 56.
+ 1 APPPATH\Controllers\Partido.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLocal"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:35:52 --> ErrorException: Undefined array key "idEquipo"
+[Method: POST, Route: partidos/update/]
+in APPPATH\Controllers\Partido.php on line 56.
+ 1 APPPATH\Controllers\Partido.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEquipo"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:37:39 --> ErrorException: Undefined array key "idLocal"
+[Method: POST, Route: partidos/update/]
+in APPPATH\Controllers\Partido.php on line 56.
+ 1 APPPATH\Controllers\Partido.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLocal"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:37:45 --> ErrorException: Undefined array key "idLocal"
+[Method: POST, Route: partidos/update/]
+in APPPATH\Controllers\Partido.php on line 56.
+ 1 APPPATH\Controllers\Partido.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLocal"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:38:26 --> ErrorException: Undefined array key "idLocal"
+[Method: POST, Route: partidos/update/]
+in APPPATH\Controllers\Partido.php on line 56.
+ 1 APPPATH\Controllers\Partido.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLocal"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:41:36 --> ErrorException: Undefined array key "idLocal"
+[Method: POST, Route: partidos/update/]
+in APPPATH\Controllers\Partido.php on line 56.
+ 1 APPPATH\Controllers\Partido.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLocal"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Partido.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:54:18 --> ErrorException: Undefined property: stdClass::$idEquipo
+[Method: GET, Route: partidos]
+in APPPATH\Views\partidos\show.php on line 30.
+ 1 APPPATH\Views\partidos\show.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idEquipo', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/show', [], true)
+ 5 APPPATH\Controllers\Partido.php(15): view('partidos/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:54:18 --> ErrorException: Undefined property: stdClass::$idEquipo
+[Method: GET, Route: partidos]
+in APPPATH\Views\partidos\show.php on line 30.
+ 1 APPPATH\Views\partidos\show.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idEquipo', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/show', [], true)
+ 5 APPPATH\Controllers\Partido.php(15): view('partidos/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:54:18 --> ErrorException: Undefined property: stdClass::$idEquipo
+[Method: GET, Route: partidos]
+in APPPATH\Views\partidos\show.php on line 30.
+ 1 APPPATH\Views\partidos\show.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idEquipo', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/show', [], true)
+ 5 APPPATH\Controllers\Partido.php(15): view('partidos/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-11-14 20:54:18 --> ErrorException: Undefined property: stdClass::$idEquipo
+[Method: GET, Route: partidos]
+in APPPATH\Views\partidos\show.php on line 30.
+ 1 APPPATH\Views\partidos\show.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idEquipo', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\partidos\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('partidos/show', [], true)
+ 5 APPPATH\Controllers\Partido.php(15): view('partidos/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Partido->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Partido))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')

@@ -1,0 +1,448 @@
+ERROR - 2024-10-09 03:41:18 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'ligapremier', 3306, '', 0)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#9 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-09 03:41:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cancha`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+ERROR - 2024-10-09 03:41:27 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'ligapremier', 3306, '', 0)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ligapremier\app\Controllers\Arbitro.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Arbitro->index()
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+#9 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\ligapremier\app\Controllers\Arbitro.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Arbitro->index()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-09 03:41:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: arbitros]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `arbitro`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Arbitro.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+ERROR - 2024-10-09 03:41:32 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'ligapremier', 3306, '', 0)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#9 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-09 03:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cancha`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+ERROR - 2024-10-09 03:42:29 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'ligapremier', 3306, '', 0)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#9 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-09 03:42:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cancha`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+ERROR - 2024-10-09 03:42:32 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'ligapremier', 3306, '', 0)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#9 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-09 03:42:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cancha`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:21:01 --> ErrorException: Undefined array key "telefono"
+[Method: POST, Route: entrenadores/insert]
+in APPPATH\Controllers\Entrenador.php on line 65.
+ 1 APPPATH\Controllers\Entrenador.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefono"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Entrenador.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Entrenador->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrenador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:46:46 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:48:39 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:48:42 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:55:39 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:55:40 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:55:41 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:55:41 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:55:41 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 07:55:41 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: equipos]
+in APPPATH\Controllers\Equipo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Equipo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Equipo))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 08:43:58 --> ErrorException: Undefined array key "posision"
+[Method: POST, Route: jugadores/insert]
+in APPPATH\Controllers\Jugador.php on line 75.
+ 1 APPPATH\Controllers\Jugador.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "posision"', 'D:\\xampp\\htdocs\\ligapremier\\app\\Controllers\\Jugador.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jugador->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jugador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+ERROR - 2024-10-09 20:02:00 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'ligapremier', 3306, '', 0)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#9 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\xampp\htdocs\ligapremier\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ligapremier\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ligapremier\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ligapremier\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ligapremier\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\ligapremier\app\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(933): App\Controllers\Canchas->index()
+#7 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+#8 D:\xampp\htdocs\ligapremier\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ligapremier\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ligapremier\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\ligapremier\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\ligapremier\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-09 20:02:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: canchas]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cancha`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Canchas.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Canchas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canchas))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 20:06:30 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/14]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
+CRITICAL - 2024-10-09 20:55:20 --> ErrorException: Undefined property: stdClass::$arbitro
+[Method: GET, Route: arbitros/edit/14]
+in APPPATH\Views\arbitros\edit.php on line 9.
+ 1 APPPATH\Views\arbitros\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$arbitro', 'D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\ligapremier\\app\\Views\\arbitros\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('arbitros/edit', [], true)
+ 5 APPPATH\Controllers\Arbitro.php(32): view('arbitros/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Arbitro->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arbitro))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\ligapremier\\public\\index.php')
